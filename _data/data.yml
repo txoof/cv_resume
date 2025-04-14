@@ -3,30 +3,30 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Aaron Ciuffo
+  tagline: AI & Data Science Professional
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  location: Den Haag, Netherlands
+  email: aaron.ciuffo@gmail.com
+  phone: +31 612.611.655
+  timezone: Europe/Brussels # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  citizenship: Dutch & USA
+  github: txoof
+  website: # Include the full website URL, including "http://" or "https://".
+  linkedin: aaron-ciuffo
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky:  # Specify your full Bluesky handle
+  twitter: 
+  stack-overflow: 5530152/aaron-ciuffo # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
   mastodon: # Please include your full Mastodon link here.
@@ -40,42 +40,46 @@ sidebar:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
+    - idiom: Dutch
+      level: Conversational
 
-    - idiom: Spanish
-      level: Professional
+    # - idiom: Spanish
+    #   level: Professional
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Cycle Touring
       link:
 
-
-    - item: Snowboarding
+    - item: Distance Running
       link:
 
+    - item: Making, Mending and Modifying
+      link:
 
     - item: Cooking
       link:
 
 
 career-profile:
-  title: Career Profile
+  title: Summary
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Aspiring AI and Data Science professional with a background in education technology 
+    and over 15 years of experience integrating innovative solutions into school environments. 
+    Currently completing a BSc in Applied Data Science & AI at Breda University of 
+    Applied Sciences (expected 2027), where I’m building a strong foundation in machine 
+    learning, data analysis, and responsible AI. I’m driven by a passion for using data to 
+    uncover insights, improve systems, and create meaningful impact. 
+    Skilled in identifying complex challenges and developing both technical and workflow-based 
+    solutions that enhance efficiency and foster continuous improvement.
+    
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Bachelor Applied Data Science & AI
+    university: Breda University of Applied Science, Netherlands
+    time: 2024-2027 (anticipated)
     details: |
       Describe your study here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,203 +88,192 @@ education:
       pretium quis, sem.
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+  - degree: Teaching Certification
+    university: Metropolitan State College of Denver
+    time: 2004-2006
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Completed a state-approved Elementary Education Licensure Program at Metropolitan State College of Denver, with a focus on child development, instructional strategies, and classroom management. The program combined academic coursework with supervised teaching placements in diverse school settings, preparing for effective, inclusive teaching in K–6 classrooms.
 
+  - degree: Bachelors of Psychology & English Literature
+    university: University of Colorado, Denver Colorado, USA
+    time: 1999-2003
+    details: |
+      
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: ADS & AI Student
+    time: 2024-2027 (Anticipated Graduation)
+    company: Breda University of Applied Science, Breda Netherlands
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Programming & Tools: Python, Power BI, Pandas, NumPy
+      - Machine Learning: Predictive modeling, Scikit-learn, data governance
+      - Deep Learning: Human-centered design, responsible & explainable AI
+      - Math Foundations: Linear algebra, calculus
+
+  - role: IT Curriculum Coordinator & High School Integration Specialist
+    time: 2016-2024
+    company: American School of the Hague, Wassenaar Netherlands
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Lead the selection and implementation of technology to support teaching, learning, and data-driven decision-making. Manage software and hardware transitions, train staff, and develop technical and workflow solutions to ensure system stability and alignment with school goals.
+      Key Contributions:
+      - Built SQL integrations for Learning Platform
+      - Provided GDPR support 
+      - Super Administrator Google Workspace, Brightspace LMS
+      - Lead development and deployment of organizational intranet      
+      - Led transition to D2L/Brightspace LMS; trained all staff
+      - Co-develop ISTE-based lessons
+      - Support 1:1 iPad program
+
+  - role: Technology Integrator & Classroom Teacher
+    time: 2011-2015
+    company: International School of Stavanger, Stavanger Norway
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Supported teachers in integrating ISTE standards and educational technology. Administered Google Workspace, managed MDM systems, and led 1:1 iPad deployment.
+      - Google Workspace admin; trained staff in Google Apps & Classroom
+      - Managed Cisco Meraki MDM for iPad program
+
+      Taught:
+      - Grades 9–12 Technology (GCSE)
+      - Grades 5–8 Design Tech: vector graphics, laser/plotter cutting, circuits
+      - Grade 2 (self-contained classroom)
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
+  - name: Data Protection Officer
     start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+    end: 2020
+    organization: Maastrict University
+    credentialid: ECPC201317
+    credentialurl: drive.google.com/file/d/15bI43QLj5lZEDRQEjsZkp9FWIySFCjOD8NPTBcHyAbJZQjTSLE66b4BZl_wqBfBIc9Pa6kFW/view?usp=sharing
+    credentialname: Data Protection Officer Certification
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Completed the Data Protection Officer Training Programme at Maastricht University, focusing on the practical application of the GDPR within organizations. The program provided a comprehensive overview of data protection law, compliance obligations, and the role of the DPO in monitoring, advising, and cooperating with supervisory authorities.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+      Coursework included case-based analysis of data breaches, DPIAs, and cross-border data transfers. Emphasis was placed on balancing legal, technical, and organizational measures to support accountability and privacy by design. The program also covered the latest European Data Protection Board guidance and the evolving regulatory landscape.
+  - name: Google Workspace Administration
+    start: 2015
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+    organization: Google
+    credentialid: 
+    credentialurl: drive.google.com/file/d/0BzC-V2QIsGRGU25ialM4QVNEaWxQbmozTlp2dl9ldXR6cHhZ/view?usp=sharing&resourcekey=0-o1PnjkcMnLqxI7Rhnd8wNQ
+    credentialname: Google Administrator
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Completed Google Workspace Administrator Training, covering user and group management, organizational unit structure, security settings, and application configuration within the Google Admin Console. Gained hands-on experience in managing accounts, enforcing policies, and optimizing tools such as Gmail, Drive, and Classroom to support school-wide collaboration and compliance.
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  intro:   
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: PowerSchool-D2L Plugin
+    link: "https://github.com/American-School-of-the-Hague/psd2l-plugin"
+    tagline: "Synchronize courses, and demographics between PowerSchool Student Information System (SIS) and Desire2Learn Brightspace"
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: PaperPi
+    link: "https://github.com/txoof/paperpi"
+    tagline: "A quiet slow internet e-Paper radio. No Loud colors, no busy animations, just a lovely selection of the information you want, without buzz and distraction"
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: epdlib
+    link: "https://github.com/txoof/epdlib/"
+    tagline: "An API for providing flexible layouts for a variety of resolutions and size ratios on frame buffered devices such as e-Paper displays"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: codesign
+    link: "https://github.com/txoof/codesign"
+    tagline: "A tool for automating the signing, notarizing and stapling  of commandline tools in the MacOS environment"
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Resume of Projects
+    link: "https://github.com/txoof/resume?tab=readme-ov-file#project-summary"
+    tagline: "A recent resume of my best, and favorite projects"
 
 oss:
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: waveshareteam / e-Paper
+    link: "https://github.com/search?q=repo%3Awaveshareteam%2Fe-Paper%20involves%3Atxoof&type=issues"
+    tagline: "Drivers and sample code for WaveShare e-Paper displays"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: GregDMeyer / IT8951
+    link: "https://github.com/search?q=repo%3AGregDMeyer%2FIT8951%20involves%3Atxoof&type=issues"
+    tagline: "Python Drivers for IT8951 e-Paper controllers"
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+ 
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+#   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#     link: "#"
+#     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+#   - title: A syntax directed compiler for Algol 60
+#     link: "#"
+#     authors: Edgar T. Irons
+#     conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
   title: Recommendations
+  intro: >
+    Additional references and contact information provided upon request.
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: Kili Lay
+    email: klay@ash.nl
+    phone: +31 653.295.024
+    role: Director of Curriculum and Staff Development, American School of the Hague
     recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+      Aaron combines what he currently knows and can do with creative thinking and drive tor esolve problems, supported by a desire to do things well.
+  - person: Brett Lovgren
+    email: blovgren@ash.nl
+    phone: +31 653.295.024
+    role: PowerSchool Administrator, American School of the Hague
     recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      Aaron has become the go-to resource for individuals who are extracting, transforming and loading data across the school.
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
+  - name: Google Workspace Admin
+    level: 98%
+  
+  - name: Excel & Google Sheets
     level: 98%
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: Jupyter Lab
+    level: 97%
 
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Python
     level: 95%
 
-  - name: Ruby on Rails
-    level: 85%
+  - name: OpenSCAD
+    level: 90%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: SQL
+    level: 70%
+
+  - name: Bash
+    level: 70%
+
+  - name: Mac System Admin
+    level: 70%
+  
+  - name: Linux System Admin
+    level: 65%
+  
+  
+
+
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
