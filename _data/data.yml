@@ -98,6 +98,7 @@ experiences:
   - role: ADS & AI Student
     time: 2024-2027 (Anticipated Graduation)
     company: Breda University of Applied Science, Breda Netherlands
+    link: https://www.buas.nl/en/programmes/applied-data-science-artificial-intelligence
     details: |
       - Programming & Tools: Python, Power BI, Pandas, NumPy
       - Machine Learning: Predictive modeling, Scikit-learn, data governance
@@ -107,6 +108,7 @@ experiences:
   - role: IT Curriculum Coordinator & High School Integration Specialist
     time: 2016-2024
     company: American School of the Hague, Wassenaar Netherlands
+    link: https://ash.nl
     details: |
       Lead the selection and implementation of technology to support teaching, learning, and data-driven decision-making. Manage software and hardware transitions, train staff, and develop technical and workflow solutions to ensure system stability and alignment with school goals.
       Key Contributions:
@@ -121,6 +123,7 @@ experiences:
   - role: Technology Integrator & Classroom Teacher
     time: 2011-2015
     company: International School of Stavanger, Stavanger Norway
+    link: https://isstavanger.no/
     details: |
       Supported teachers in integrating ISTE standards and educational technology. Administered Google Workspace, managed MDM systems, and led 1:1 iPad deployment.
       - Google Workspace admin; trained staff in Google Apps & Classroom
