@@ -2,7 +2,17 @@
 <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
 
-# Orbit
+# Resume Source for Aaron Ciuffo
+
+You appear to have landed here by mistake. Please see the live [resume link]((https://txoof.github.io/cv_resume)).
+
+## [Live Resume Link](https://txoof.github.io/cv_resume)
+
+## Printable Resume
+
+Visit [Web2PDFConvert](https://www.web2pdfconvert.com) and enter `https://txoof.github.io/cv_resume/print`
+
+## Orbit
 > This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 > Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
 
