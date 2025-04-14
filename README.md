@@ -4,7 +4,7 @@
 
 # Resume Source for Aaron Ciuffo
 
-You appear to have landed here by mistake. Please see the live [resume link]((https://txoof.github.io/cv_resume)).
+You appear to have landed here by mistake. Please see the live [resume link](https://txoof.github.io/cv_resume).
 
 ## [Live Resume Link](https://txoof.github.io/cv_resume)
 
