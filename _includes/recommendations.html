@@ -1,5 +1,4 @@
-{% assign recommendations = site.data.data.recommendations %} {% if
-recommendations %}
+{% assign recommendations = site.data.data.recommendations %} {% if recommendations %}
 <section class="section recommendations-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -8,35 +7,32 @@ recommendations %}
     </span>
     {{ recommendations.title }}
   </h2>
-  {% for recommendation in recommendations.list %} {% if
-  recommendation.recommendation %}
-  <div class="item">
-    <blockquote class="details">
+  {% if recommendations.intro %}
+  <p class="section-intro">{{ recommendations.intro }}</p>
+  {% endif %}
+  {% for recommendation in recommendations.list %} {% if recommendation.recommendation %}
+  <div class="recommendation-box card">
+    <blockquote class="details quote-text">
       {{ recommendation.recommendation | markdownify }}
     </blockquote>
-    <!--//details-->
-
-    <div class="d-flex">
-      <div class="ml-auto">
-        <h3 class="recommendation-person">{{ recommendation.person }}</h3>
-        <p>{{ recommendation.role }}</p>
-        {% if recommendation.email %}
-        <div>
-          <a href="mailto:{{recommendation.email}}"
-            ><i class="fas fa-envelope mr-1"></i>{{ recommendation.email }}</a
-          >
-        </div>
-        {% endif %} {% if recommendation.phone %}
-        <div>
-          <a href="tel:{{recommendation.phone}}">
-            <i class="fas fa-phone mr-1"></i>{{ recommendation.phone }}</a
-          >
-        </div>
-        {% endif %}
+    <div class="contact-info">
+      <h3 class="recommendation-person">{{ recommendation.person }}</h3>
+      <p>{{ recommendation.role }}</p>
+      {% if recommendation.email %}
+      <div>
+        <a href="mailto:{{recommendation.email}}">
+          <i class="fas fa-envelope mr-1"></i>{{ recommendation.email }}</a>
+      </div>
+      {% endif %}
+      {% if recommendation.phone %}
+      <div>
+        <a href="tel:{{recommendation.phone}}">
+          <i class="fas fa-phone mr-1"></i>{{ recommendation.phone }}</a>
       </div>
       {% endif %}
     </div>
   </div>
+  {% endif %}
   {% endfor %}
 </section>
 <!--//section-->
