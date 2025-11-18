@@ -11,9 +11,12 @@
         padding: 0;
     }
 
+    /* CRITICAL: Override the grid layout */
     .wrapper {
-        max-width: none;
-        padding: 0;
+        display: block !important;
+        grid-template-columns: none !important;
+        max-width: none !important;
+        padding: 0 !important;
     }
 
     /* Force sidebar to top with horizontal layout */
@@ -21,6 +24,7 @@
         position: static !important;
         float: none !important;
         width: 100% !important;
+        order: 1 !important;
         margin-bottom: 20px;
         padding: 15px 0;
         border-bottom: 2px solid #ccc;
@@ -36,10 +40,11 @@
     .main-wrapper {
         width: 100% !important;
         float: none !important;
-        padding: 0 !important;
+        order: 2 !important;
+        padding: 20px 0 !important;
     }
     
-    /* Make visible sections display as flex items */
+    /* Rest of your styles... */
     .sidebar-wrapper .profile-container {
         flex: 0 0 auto !important;
         max-width: 120px;
@@ -57,7 +62,6 @@
         min-width: 250px;
     }
     
-    /* Compact avatar */
     .sidebar-wrapper .avatar {
         width: 80px !important;
         height: 80px !important;
@@ -65,14 +69,12 @@
         -webkit-filter: grayscale(1);
     }
     
-    /* HIDE unwanted sections */
     .sidebar-wrapper .languages-container,
     .sidebar-wrapper .skills-container,
     .sidebar-wrapper .interests-container {
         display: none !important;
     }
 
-    /* Existing styles */
     .main-wrapper .time {
         float: right;
         color: black !important;
@@ -98,7 +100,6 @@
         color: #ffffff !important;
     }
 
-    /* Page break controls */
     .section,
     .item,
     .upper-row,
