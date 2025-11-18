@@ -61,33 +61,36 @@
         background: white !important;
     }
     
-    /* Very compact profile */
+    /* Prominent profile - LARGER NAME, NO PHOTO */
     .sidebar-wrapper .profile-container {
-        flex: 0 0 60px !important;
-        text-align: center;
+        flex: 0 0 auto !important;
+        text-align: left !important;
         padding: 0 !important;
         background: transparent !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
     }
     
     .sidebar-wrapper .name {
-        font-size: 11pt !important;
-        margin: 2px 0 !important;
-        line-height: 1.1 !important;
+        font-size: 18pt !important;
+        font-weight: 900 !important;
+        margin: 0 !important;
+        line-height: 1 !important;
         color: #000 !important;
+        letter-spacing: 0.5px !important;
     }
     
     .sidebar-wrapper .tagline {
-        font-size: 7pt !important;
-        margin: 0 !important;
+        font-size: 9pt !important;
+        margin: 2px 0 0 0 !important;
         line-height: 1.1 !important;
         color: #666 !important;
+        font-weight: 400 !important;
     }
     
     .sidebar-wrapper .avatar {
-        width: 50px !important;
-        height: 50px !important;
-        margin-bottom: 3px !important;
-        filter: grayscale(1);
+        display: none !important;
     }
     
     /* Compact contact */
