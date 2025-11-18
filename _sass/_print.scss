@@ -1,7 +1,7 @@
 @media print {
     @page {
         size: A4;
-        margin: 8mm;
+        margin: 12mm;
     }
     
     body {
@@ -212,3 +212,5 @@
     h2, h3, h4, h5, h6 {
         page-break-after: avoid;
         page-break-inside: avoid;
+    }
+}
