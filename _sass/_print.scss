@@ -16,7 +16,7 @@
         padding: 0;
     }
 
-    // Force sidebar to top with horizontal layout
+    /* Force sidebar to top with horizontal layout */
     .sidebar-wrapper {
         position: static !important;
         float: none !important;
@@ -25,8 +25,6 @@
         padding: 15px 0;
         border-bottom: 2px solid #ccc;
         -webkit-print-color-adjust: exact;
-        
-        // Horizontal flex layout
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: wrap !important;
@@ -34,14 +32,14 @@
         gap: 20px !important;
     }
     
-    // Main content full width below sidebar
+    /* Main content full width below sidebar */
     .main-wrapper {
         width: 100% !important;
         float: none !important;
         padding: 0 !important;
     }
     
-    // Make visible sections display as flex items
+    /* Make visible sections display as flex items */
     .sidebar-wrapper .profile-container {
         flex: 0 0 auto !important;
         max-width: 120px;
@@ -59,7 +57,7 @@
         min-width: 250px;
     }
     
-    // Compact avatar
+    /* Compact avatar */
     .sidebar-wrapper .avatar {
         width: 80px !important;
         height: 80px !important;
@@ -67,14 +65,14 @@
         -webkit-filter: grayscale(1);
     }
     
-    // HIDE unwanted sections
+    /* HIDE unwanted sections */
     .sidebar-wrapper .languages-container,
     .sidebar-wrapper .skills-container,
     .sidebar-wrapper .interests-container {
         display: none !important;
     }
 
-    // Existing styles
+    /* Existing styles */
     .main-wrapper .time {
         float: right;
         color: black !important;
@@ -100,7 +98,7 @@
         color: #ffffff !important;
     }
 
-    // Page break controls
+    /* Page break controls */
     .section,
     .item,
     .upper-row,
