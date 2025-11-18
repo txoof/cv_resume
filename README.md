@@ -10,7 +10,7 @@ You appear to have landed here by mistake. Please see the live [resume link](htt
 
 ## Printable Resume
 
-Visit [Web2PDFConvert](https://www.web2pdfconvert.com) and enter `https://txoof.github.io/cv_resume/print`
+Visit [https://txoof.github.io/cv_resume/print](https://txoof.github.io/cv_resume/print) and use your browser's `Print` function. This is optimized for A4 paper without headers or footers. **NOTE:** The print output is optimized for paper and reduces or removes some content.
 
 ## Orbit
 > This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
