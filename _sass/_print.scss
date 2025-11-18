@@ -98,3 +98,21 @@
     .fa-inverse:after,
     .fa-inverse:before {
         color: #ffffff !important;
+    }
+
+    // Page break controls
+    .section,
+    .item,
+    .upper-row,
+    .experiences-section .item,
+    .projects-section .item,
+    .recommendation-box {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    
+    h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+}
