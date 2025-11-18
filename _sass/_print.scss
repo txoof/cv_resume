@@ -10,22 +10,53 @@
         margin: 0;
     }
 
+    /* Move sidebar to top with horizontal layout */
+    .sidebar-wrapper {
+        position: static;
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #ccc;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    .main-wrapper {
+        width: 100%;
+        float: none;
+    }
+    
+    /* Keep only photo, contact, and education */
+    .sidebar-wrapper .profile-container,
+    .sidebar-wrapper .contact-container,
+    .sidebar-wrapper .education-container {
+        display: inline-block;
+        vertical-align: top;
+        width: auto;
+        margin-right: 30px;
+        page-break-inside: avoid;
+    }
+    
+    /* Make profile photo smaller for compact layout */
+    .sidebar-wrapper .profile-container img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    /* Hide everything else in sidebar */
+    .sidebar-wrapper .container-block:not(.profile-container):not(.contact-container):not(.education-container) {
+        display: none !important;
+    }
+
     img.avatar {
         filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+        -webkit-filter: grayscale(1);
     }
     
     .main-wrapper .time {
         float: right;
         color: black !important;
         -webkit-print-color-adjust: exact; 
-    }
-    
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact;
     }
 
     .remove-container.container-block {
@@ -48,11 +79,6 @@
     }
 
     /* Prevent compression and ensure proper page breaks */
-    * {
-        box-sizing: border-box;
-    }
-    
-    /* Prevent breaking inside these elements */
     .section,
     .section-title,
     .item,
@@ -66,13 +92,11 @@
         break-inside: avoid;
     }
     
-    /* Allow natural breaks between major sections */
     .section {
         page-break-after: auto;
         break-after: auto;
     }
     
-    /* Ensure headings stay with their content */
     h2, h3, h4, h5, h6 {
         page-break-after: avoid;
         break-after: avoid;
