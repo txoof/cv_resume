@@ -8,72 +8,73 @@
         font-size: 13pt;
         width: 100%;
         margin: 0;
+        padding: 0;
     }
 
-    /* Move sidebar to top with horizontal layout */
+    .wrapper {
+        max-width: none;
+        padding: 0;
+    }
+
+    // Force sidebar to top with horizontal layout
     .sidebar-wrapper {
-        position: static;
-        float: none;
-        width: 100%;
+        position: static !important;
+        float: none !important;
+        width: 100% !important;
         margin-bottom: 20px;
-        padding-bottom: 15px;
+        padding: 15px 0;
         border-bottom: 2px solid #ccc;
         -webkit-print-color-adjust: exact;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        gap: 30px;
+        
+        // Horizontal flex layout
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        align-items: flex-start !important;
+        gap: 20px !important;
     }
     
-    /* Main content takes full width */
+    // Main content full width below sidebar
     .main-wrapper {
-        width: 100%;
-        float: none;
+        width: 100% !important;
+        float: none !important;
+        padding: 0 !important;
     }
     
-    /* Keep only photo/profile, contact, and education visible in sidebar */
-    .sidebar-wrapper .profile-container,
-    .sidebar-wrapper .contact-container,
-    .sidebar-wrapper .education-container {
-        display: inline-block;
-        vertical-align: top;
-        flex: 0 1 auto;
-        page-break-inside: avoid;
-    }
-    
-    /* Make profile section more compact */
+    // Make visible sections display as flex items
     .sidebar-wrapper .profile-container {
+        flex: 0 0 auto !important;
+        max-width: 120px;
         text-align: center;
-        max-width: 150px;
     }
     
-    .sidebar-wrapper .profile-container img.avatar {
-        width: 100px;
-        height: 100px;
+    .sidebar-wrapper .contact-container {
+        flex: 0 0 auto !important;
+        min-width: 200px;
+        max-width: 300px;
+    }
+    
+    .sidebar-wrapper .education-container {
+        flex: 1 1 auto !important;
+        min-width: 250px;
+    }
+    
+    // Compact avatar
+    .sidebar-wrapper .avatar {
+        width: 80px !important;
+        height: 80px !important;
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
     }
     
-    /* Contact info compact */
-    .sidebar-wrapper .contact-container {
-        flex: 0 1 auto;
-        min-width: 250px;
-    }
-    
-    /* Education section */
-    .sidebar-wrapper .education-container {
-        flex: 1 1 auto;
-        min-width: 300px;
-    }
-    
-    /* HIDE everything else in sidebar */
+    // HIDE unwanted sections
     .sidebar-wrapper .languages-container,
     .sidebar-wrapper .skills-container,
     .sidebar-wrapper .interests-container {
         display: none !important;
     }
 
-    /* Keep existing time formatting */
+    // Existing styles
     .main-wrapper .time {
         float: right;
         color: black !important;
@@ -97,28 +98,3 @@
     .fa-inverse:after,
     .fa-inverse:before {
         color: #ffffff !important;
-    }
-
-    /* Prevent compression and ensure proper page breaks */
-    .section,
-    .item,
-    .upper-row,
-    .experiences-section .item,
-    .projects-section .item,
-    .recommendation-box {
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-    
-    .section {
-        page-break-after: auto;
-        break-after: auto;
-    }
-    
-    h2, h3, h4, h5, h6 {
-        page-break-after: avoid;
-        break-after: avoid;
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-}
