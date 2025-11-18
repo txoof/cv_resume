@@ -19,40 +19,61 @@
         padding-bottom: 15px;
         border-bottom: 2px solid #ccc;
         -webkit-print-color-adjust: exact;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 30px;
     }
     
+    /* Main content takes full width */
     .main-wrapper {
         width: 100%;
         float: none;
     }
     
-    /* Keep only photo, contact, and education */
+    /* Keep only photo/profile, contact, and education visible in sidebar */
     .sidebar-wrapper .profile-container,
     .sidebar-wrapper .contact-container,
     .sidebar-wrapper .education-container {
         display: inline-block;
         vertical-align: top;
-        width: auto;
-        margin-right: 30px;
+        flex: 0 1 auto;
         page-break-inside: avoid;
     }
     
-    /* Make profile photo smaller for compact layout */
-    .sidebar-wrapper .profile-container img {
-        width: 80px;
-        height: 80px;
+    /* Make profile section more compact */
+    .sidebar-wrapper .profile-container {
+        text-align: center;
+        max-width: 150px;
     }
     
-    /* Hide everything else in sidebar */
-    .sidebar-wrapper .container-block:not(.profile-container):not(.contact-container):not(.education-container) {
-        display: none !important;
-    }
-
-    img.avatar {
+    .sidebar-wrapper .profile-container img.avatar {
+        width: 100px;
+        height: 100px;
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
     }
     
+    /* Contact info compact */
+    .sidebar-wrapper .contact-container {
+        flex: 0 1 auto;
+        min-width: 250px;
+    }
+    
+    /* Education section */
+    .sidebar-wrapper .education-container {
+        flex: 1 1 auto;
+        min-width: 300px;
+    }
+    
+    /* HIDE everything else in sidebar */
+    .sidebar-wrapper .languages-container,
+    .sidebar-wrapper .skills-container,
+    .sidebar-wrapper .interests-container {
+        display: none !important;
+    }
+
+    /* Keep existing time formatting */
     .main-wrapper .time {
         float: right;
         color: black !important;
@@ -80,14 +101,11 @@
 
     /* Prevent compression and ensure proper page breaks */
     .section,
-    .section-title,
     .item,
     .upper-row,
-    .job-title,
-    .experience-section .item,
-    .project-item,
-    .education-container .item,
-    .interests-container .item {
+    .experiences-section .item,
+    .projects-section .item,
+    .recommendation-box {
         page-break-inside: avoid;
         break-inside: avoid;
     }
