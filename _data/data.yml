@@ -164,21 +164,13 @@ projects:
     link: "https://github.com/American-School-of-the-Hague/psd2l-plugin"
     tagline: "Synchronize courses, and demographics between PowerSchool Student Information System (SIS) and Desire2Learn Brightspace"
 
-  - title: PaperPi
-    link: "https://github.com/txoof/paperpi"
-    tagline: "A quiet slow internet e-Paper radio. No Loud colors, no busy animations, just a lovely selection of the information you want, without buzz and distraction"
-
-  - title: epdlib
-    link: "https://github.com/txoof/epdlib/"
-    tagline: "An API for providing flexible layouts for a variety of resolutions and size ratios on frame buffered devices such as e-Paper displays"
-
-  - title: codesign
-    link: "https://github.com/txoof/codesign"
-    tagline: "A tool for automating the signing, notarizing and stapling  of commandline tools in the MacOS environment"
-
   - title: Resume of Projects
     link: "https://github.com/txoof/resume?tab=readme-ov-file#project-summary"
     tagline: "A recent resume of my best, and favorite projects"
+
+  - title: PaperPi
+    link: "https://github.com/txoof/paperpi"
+    tagline: "A quiet slow internet e-Paper radio. No Loud colors, no busy animations, just a lovely selection of the information you want, without buzz and distraction"
 
 oss:
   title: OSS Contributions
